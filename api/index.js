@@ -14,7 +14,7 @@ app.get("/tasks", (req, res) => {
   res.json([
     {
       id: 1,
-      title: "Learn CI/CD",
+      title: "CI/CD Development",
     },
   ]);
 });
