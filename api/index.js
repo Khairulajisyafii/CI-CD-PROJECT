@@ -6,7 +6,7 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
   res.json({
-    message: "Apple Academy CI/CD Project",
+    message: "CI/CD PROJECT",
   });
 });
 
@@ -19,7 +19,6 @@ app.get("/tasks", (req, res) => {
   ]);
 });
 
-// Jalankan server hanya ketika dijalankan secara lokal
 if (require.main === module) {
   const PORT = process.env.PORT || 3000;
 
